@@ -23,7 +23,6 @@ export default class Navbar extends Component {
             onClick={this.handleToggle} >
             <FaAlignRight className='nav-icon' /></button>
           </div>
-        </div>
       <ul className={this.state.isOpen?'nav-links show-nav' : 'nav-links'} >
         <li>
           <Link to='/' >
@@ -38,6 +37,7 @@ export default class Navbar extends Component {
         </li>
       </ul>
     
+        </div>
       </nav>
     )
   }
